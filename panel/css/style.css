@@ -1,0 +1,61 @@
+.card-body-inbox {
+  padding: 0;
+  max-height: 468px;
+}
+.card-conversation {
+  min-height: 520px;
+  max-height: 520px;
+}
+.msg-left {
+  margin-bottom: 10px;
+  max-width: 500px;
+  background-color: #ffa012;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-left-radius: 0;
+}
+.msg-right {
+  margin-left: auto;
+  margin-bottom: 10px;
+  max-width: 500px;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  border-top-right-radius: 0;
+}
+.date-time {
+  font-size: 14px;
+}
+
+
+
+
+
+.rating-css {
+
+}
+.rating-css div {
+  color: #ffb03b;
+}
+.rating-css div:hover {
+  color: #ffa012;
+}
+.rating-css input {
+  display: none;
+}
+.rating-css input + label {
+  font-size: 30px;
+  cursor: pointer;
+}
+.rating-css input:checked + label ~ label {
+  color: #838383;
+}
+.rating-css label:active {
+  transform: scale(0.8);
+  transition: 0.3s ease;
+}
+.rating-css input:checked + label ~ label:hover {
+  color: #ffa012;
+}

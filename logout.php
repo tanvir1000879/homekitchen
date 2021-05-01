@@ -1,0 +1,10 @@
+<?php
+	session_start();
+	unset($_SESSION['loggedin']);
+	unset($_SESSION['id']);
+	unset($_SESSION['name']);
+	unset($_SESSION['email']);
+	unset($_SESSION['role']);
+	unset($_SESSION['recipe_id']);
+	unset($_SESSION['receiver_id']);
+	header('location:login.php');
